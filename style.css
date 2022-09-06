@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    background-color: #E5E5E5;
+}
+button:hover{
+    cursor: pointer;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 30px auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #ffffff;
+    width: 650px;
+    height: 500px;
+    border: 0;
+    border-radius: 15px;
+}
+.productPhoto{
+    width: 250px;
+    height: 250px;
+}
+.productPhoto img{
+    width: 250px;
+    height: 250px;
+}
+.producttitle{
+    display: flex;
+    flex-direction: column;
+}
+.discount{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #191847;
+    color: #ffffff;
+    width: 112px;
+    height: 29px;
+    padding: 3px;
+    border: 0;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+}
+.productdesc{
+    color: #191847;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+}
+.productoldprice{
+    color: #191847;
+    font-size: 16px;
+    text-decoration:line-through;
+}
+.productprice{
+    color: #191847;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top:-10px;
+    margin-bottom: 0;
+}
+.productinfo{
+    font-size: 12px;
+    color: #000000;
+    letter-spacing: 0.3px;
+    opacity: 0.4;
+}
+.addtocartbtn{
+    color: #ffffff;
+    background-color: #4788E9;
+    border: 0;
+    border-radius: 8px;
+    box-shadow: 1px 5px 5px #307df1;
+    font-size: 15px;
+    width: 350px;
+    height: 59px;
+}
+.productstock{
+    margin-top: 20px;
+    color: #000;
+    font-size: 12px;
+}
+.productstock i{
+    color: #00D98B;
+}
+.footbtn{
+    background-color: transparent;
+    color: #191847;
+    border:1px solid rgb(196, 189, 189);
+    border-radius: 8px;
+    width: 175px;
+    height: 64px;
+    font-size: 15px;
+    margin-top: 25px;
+    
+}
+.footbtn:hover{
+    background-color:#2b2b4d;
+    color: #ffffff;
+    transition: all 0.5s;
+}
